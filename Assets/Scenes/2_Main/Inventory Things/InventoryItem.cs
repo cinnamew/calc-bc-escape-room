@@ -16,4 +16,5 @@ public class InventoryItem
     public void RemoveFromStack() {
         stackSize--;
     }
+
 }

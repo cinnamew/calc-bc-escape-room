@@ -12,7 +12,7 @@ public class ItemObject : MonoBehaviour
     }
 
     public void OnPickupItem() {
-        GameObject.Find("inventory").GetComponent<InventorySystem>().Add(referenceItem);
         Destroy(gameObject);
+        GameObject.Find("inventory").GetComponent<InventorySystem>().Add(referenceItem);
     }
 }
