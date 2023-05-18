@@ -1662,7 +1662,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 24.5, y: 24.5}
+  m_CellSize: {x: 85.875, y: 85.875}
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 2
   m_ConstraintCount: 1
@@ -2681,6 +2681,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c3bb2daf14bc43d0be7aa1b02d608b3, type: 3}
+--- !u!1 &3497037783508057650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5997915161142912631, guid: 2c3bb2daf14bc43d0be7aa1b02d608b3, type: 3}
+  m_PrefabInstance: {fileID: 3497037783508057649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &3497037783508057651
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3497037783508057650}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &3497037783508057652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3497037783508057650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0a932756ddb489e9f90a1f5d4d079d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceItem: {fileID: 11400000, guid: 486de377a9f0242feba5830f71d2a104, type: 2}
 --- !u!1001 &8008811630623049689
 PrefabInstance:
   m_ObjectHideFlags: 0
