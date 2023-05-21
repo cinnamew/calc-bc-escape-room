@@ -8,6 +8,7 @@ public class NumberLockNumbers : MonoBehaviour
     
     [SerializeField] TMP_Text txt;
     [SerializeField] int currNum;
+    [SerializeField] NumberLock numLock;
 
     // Start is called before the first frame update
     void Start()
@@ -27,11 +28,17 @@ public class NumberLockNumbers : MonoBehaviour
         currNum++;
         if(currNum == 10) currNum = 0;
         txt.text = currNum + "";
+        numLock.CheckNum();
     }
 
     public void Remove() {
         currNum--;
         if(currNum == -1) currNum = 9;
         txt.text = currNum + "";
+        numLock.CheckNum();
+    }
+
+    public int getCurrNum() {
+        return currNum;
     }
 }
