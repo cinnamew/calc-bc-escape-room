@@ -16,3 +16,4 @@ MonoBehaviour:
   displayName: pair bracelet
   icon: {fileID: 21300000, guid: 5d52b20f865aff242bfcb08c3b6f61a5, type: 3}
   prefab: {fileID: 5997915161142912631, guid: 2c3bb2daf14bc43d0be7aa1b02d608b3, type: 3}
+  popupNum: 1
